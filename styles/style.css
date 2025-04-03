@@ -1,0 +1,78 @@
+body{
+    background-image: url(../imagens/papel_de_parede.png);
+    background-size: cover;
+    color: white;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #003785;
+    border-radius: 10px ;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+span{
+    color: #003785;
+}
+
+li{
+    display: inline-block;
+    margin: 50px;
+    font-size: 35px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #003785;
+    transition: 0.3s all;
+}
+
+
+#myname{
+    font-weight: 200;
+    font-size: 80px;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    border: 2px solid #003785;
+    border-radius: 10px ;
+}
+img{
+    width: 250px;
+    height: 350px;
+    margin-right: 10px;
+    border: 5px solid #003785;
+    border-radius: 60px ;
+}
+
+#inicio_paragrafo{
+    font-size: 50px;
+}
+P{
+    line-height: 20px;
+    max-width: 500px;
+    margin-left: 10px;
+}
+
+aside{
+    flex-direction: column;
+    margin: 50px;
+}
